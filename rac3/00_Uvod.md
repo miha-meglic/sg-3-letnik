@@ -57,7 +57,7 @@ Programske jezike kategoriziramo v pet generacij:
 
 Kot bomo kasneje spoznali, lahko programske jezike razdelimo glede na mnogo različnih faktorjev, generacije so samo eden od bolj splošnih.
 
-## Prevajanje in tolmačenje
+## Prevajanje in tolmačenje :gear:
 
 Kot smo že omenili, računalniki in drugi stroji ne govorijo programskih jezikov v isti obliki kot mi. Da jih razumejo, jih moramo najprej pretvoriti v njim razumljivo obliko, tj. **strojni jezik**. To v osnovi naredimo s prevajalnikom ali tolmačem.
 
