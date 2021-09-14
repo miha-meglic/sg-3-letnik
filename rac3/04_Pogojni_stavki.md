@@ -12,20 +12,21 @@ Pogojni operatorji nam omogočajo primerjanje podatkov in sestavljanje pogojnih 
 
 Osnovni pogojni operatoji, ki nam omogočajo primerjavo veličin so:
 
-| Operacija        | Operator | Primer                       |
-| ---------------- | :------: | ---------------------------- |
-| Ekvivalenca      |   `==`   | `4 % 2 == 0` $\lrArr$ `true` |
-| Večje            |   `>`    | `5 > 5` $\lrArr$ `false`     |
-| Večje ali enako  |   `>=`   | `5 >= 5` $\lrArr$ `true`     |
-| Manjše           |   `<`    | `5 < 3` $\lrArr$ `false`     |
-| Manjše ali enako |   `<=`   | `5 <= 3` $\lrArr$ `false`    |
+| Operacija        | Operator | Primer                        |
+| ---------------- | :------: | ----------------------------- |
+| Ekvivalenca      |   `==`   | `4 % 2 == 0` => `true`  |
+| Ne ekvivalenca   |   `!=`   | `4 % 2 != 0` => `false` |
+| Večje            |   `>`    | `5 > 5` => `false`      |
+| Večje ali enako  |   `>=`   | `5 >= 5` => `true`      |
+| Manjše           |   `<`    | `5 < 3` => `false`      |
+| Manjše ali enako |   `<=`   | `5 <= 3` => `false`     |
 
 Da pa z njimi sestavimo bolj kompleksne pogoje, potrebujemo še dva operatorja:
 
 | Operacija | Operator | Primer                            |
 | --------- | :------: | --------------------------------- |
-| IN (AND)  |   `&&`   | `true && false` $\lrArr$ `false`  |
-| ALI (OR)  |  `\|\|`  | `true \|\| false` $\lrArr$ `true` |
+| IN (AND)  |   `&&`   | `true && false` => `false`  |
+| ALI (OR)  |  `\|\|`  | `true \|\| false` => `true` |
 
 Ko spoznamo objekte, bomo spoznali še operator `instanceof`.
 
@@ -100,43 +101,43 @@ String mesec;
 
 switch (stMeseca) {
 	case 1:
-		monthString = "January";
+		mesec = "January";
 		break;
 	case 2:
-		monthString = "February";
+		mesec = "February";
 		break;
 	case 3:
-		monthString = "March";
+		mesec = "March";
 		break;
 	case 4:
-		monthString = "April";
+		mesec = "April";
 		break;
 	case 5:
-		monthString = "May";
+		mesec = "May";
 		break;
 	case 6:
-		monthString = "June";
+		mesec = "June";
 		break;
 	case 7:
-		monthString = "July";
+		mesec = "July";
 		break;
 	case 8:
-		monthString = "August";
+		mesec = "August";
 		break;
 	case 9:
-		monthString = "September";
+		mesec = "September";
 		break;
 	case 10:
-		monthString = "October";
+		mesec = "October";
 		break;
 	case 11:
-		monthString = "November";
+		mesec = "November";
 		break;
 	case 12:
-		monthString = "December";
+		mesec = "December";
 		break;
 	default:
-		monthString = "Neveljaven mesec";
+		mesec = "Neveljaven mesec";
 		break;
 }
 ```
