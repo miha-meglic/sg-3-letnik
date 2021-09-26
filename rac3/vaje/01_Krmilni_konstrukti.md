@@ -557,7 +557,7 @@ class Program {
 		// lahko bi preverili tudi do vkljucno st, a to ni potrebno - pomisli zakaj!
 		for (int i = 1; i <= st / 2; i++) {
 			// Ko najdemo deljitelj, ga izpisemo
-			if (18 % i == 0)
+			if (st % i == 0)
 				System.out.println(i);
 		}
 
